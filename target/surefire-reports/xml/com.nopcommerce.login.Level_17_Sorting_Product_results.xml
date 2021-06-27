@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Run on FIREFOX"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="17.328">
+  <properties />
+  
+  
+            <testcase name="Sorting_01_Sort_By_Product_Name" time="9.027" classname="com.nopcommerce.login.Level_17_Sorting_Product" />
+                <testcase name="Sorting_02_Sort_By_Price" time="8.301" classname="com.nopcommerce.login.Level_17_Sorting_Product" />
+      
+</testsuite>

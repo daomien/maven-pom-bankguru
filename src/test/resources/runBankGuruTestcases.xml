@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Guru Bank" parallel="false">
+	<test name="Run on FIREFOX">
+		<classes>
+			<class name="com.bankguru.login.Level_01_Register_Login_Repeat_Yourself" />
+			<class name="com.bankguru.login.Level_02_Register_Login_BasePage_P1" />
+			<class name="com.bankguru.login.Level_02_Register_Login_BasePage_P2" />
+			<class name="com.bankguru.login.Level_02_Register_Login_BasePage_P3" />
+		</classes>
+	</test>
+</suite>

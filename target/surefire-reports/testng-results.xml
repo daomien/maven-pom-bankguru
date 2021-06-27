@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[[INFO ] [2021-06-27 18:01:44,135] Pre-condition: Initial browser driver
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-06-27 18:02:13,555] Pre-condition: Hover on 'Computers' menu 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-06-27 18:02:15,444] Pre-condition: Hover on 'Notebooks' submenu 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-06-27 18:02:15,524] Sorting_01: Step 1 - Sort product name by ASC order
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-06-27 18:02:17,345]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-06-27 18:02:20,354] Sorting_01: Step 2 - Sort product name by DESC order
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-06-27 18:02:21,478]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-06-27 18:02:24,587] Sorting_02: Step 1 - Sort price product by ASC order
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-06-27 18:02:25,762]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-06-27 18:02:28,776] Sorting_02: Step 1 - Sort price produce by DESC order
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-06-27 18:02:29,878]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-06-27 18:02:32,895] Post-condition: Close browser
+<br>]]>
+    </line>
+  </reporter-output>
+  <suite name="User - Nop Commerce" duration-ms="49573" started-at="2021-06-27T10:01:44Z" finished-at="2021-06-27T10:02:33Z">
+    <groups>
+    </groups>
+    <test name="Run on FIREFOX" duration-ms="49573" started-at="2021-06-27T10:01:44Z" finished-at="2021-06-27T10:02:33Z">
+      <class name="com.nopcommerce.login.Level_17_Sorting_Product">
+        <test-method status="PASS" signature="deleteAllFilesInReportNGScreenshot()[pri:0, instance:com.nopcommerce.login.Level_17_Sorting_Product@2e8ab815]" name="deleteAllFilesInReportNGScreenshot" is-config="true" duration-ms="24" started-at="2021-06-27T10:01:44Z" finished-at="2021-06-27T10:01:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteAllFilesInReportNGScreenshot -->
+        <test-method status="PASS" signature="initBrowser(java.lang.String, java.lang.String)[pri:0, instance:com.nopcommerce.login.Level_17_Sorting_Product@2e8ab815]" name="initBrowser" is-config="true" duration-ms="31319" started-at="2021-06-27T10:01:44Z" finished-at="2021-06-27T10:02:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://demo.nopcommerce.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[[INFO ] [2021-06-27 18:01:44,135] Pre-condition: Initial browser driver
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-06-27 18:02:13,555] Pre-condition: Hover on 'Computers' menu 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-06-27 18:02:15,444] Pre-condition: Hover on 'Notebooks' submenu 
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- initBrowser -->
+        <test-method status="PASS" signature="Sorting_01_Sort_By_Product_Name()[pri:0, instance:com.nopcommerce.login.Level_17_Sorting_Product@2e8ab815]" name="Sorting_01_Sort_By_Product_Name" duration-ms="9027" started-at="2021-06-27T10:02:15Z" finished-at="2021-06-27T10:02:24Z">
+          <reporter-output>
+            <line>
+              <![CDATA[[INFO ] [2021-06-27 18:02:15,524] Sorting_01: Step 1 - Sort product name by ASC order
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-06-27 18:02:17,345]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-06-27 18:02:20,354] Sorting_01: Step 2 - Sort product name by DESC order
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-06-27 18:02:21,478]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Sorting_01_Sort_By_Product_Name -->
+        <test-method status="PASS" signature="Sorting_02_Sort_By_Price()[pri:0, instance:com.nopcommerce.login.Level_17_Sorting_Product@2e8ab815]" name="Sorting_02_Sort_By_Price" duration-ms="8301" started-at="2021-06-27T10:02:24Z" finished-at="2021-06-27T10:02:32Z">
+          <reporter-output>
+            <line>
+              <![CDATA[[INFO ] [2021-06-27 18:02:24,587] Sorting_02: Step 1 - Sort price product by ASC order
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-06-27 18:02:25,762]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-06-27 18:02:28,776] Sorting_02: Step 1 - Sort price produce by DESC order
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-06-27 18:02:29,878]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Sorting_02_Sort_By_Price -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.nopcommerce.login.Level_17_Sorting_Product@2e8ab815]" name="afterClass" is-config="true" duration-ms="750" started-at="2021-06-27T10:02:32Z" finished-at="2021-06-27T10:02:33Z">
+          <reporter-output>
+            <line>
+              <![CDATA[[INFO ] [2021-06-27 18:02:32,895] Post-condition: Close browser
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.nopcommerce.login.Level_17_Sorting_Product -->
+    </test> <!-- Run on FIREFOX -->
+  </suite> <!-- User - Nop Commerce -->
+</testng-results>

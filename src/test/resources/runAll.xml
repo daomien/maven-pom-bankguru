@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Run All Test Suites" parallel="false">
+	<suite-files>
+		<suite-file path="runLiveGuruTestcases.xml" />
+		<suite-file path="runNopCommerceTestcases.xml" />
+	</suite-files>
+</suite>

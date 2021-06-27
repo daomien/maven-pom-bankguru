@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Employee - OrangeHRM" parallel="false">
+	<!-- run parallel change parallel="tests" thread-counts="3" -->
+	<listeners>
+		<listener class-name="commons.MethodListener" />
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+		<listener class-name="reportConfig.ReportNGListener" />
+		<!-- <listener class-name="reportConfig.ExtentReportListenerV2" /> -->
+		<listener class-name="reportConfig.ExtentTestListener" />
+		<listener class-name="reportConfig.AllureTestListener" />
+	</listeners>
+	<parameter name="url" value="https://opensource-demo.orangehrmlive.com/index.php/dashboard" />
+	<test name="Run on Chrome">
+		<parameter name="browser" value="Chrome" />
+		<classes>
+			<class name="com.orangehrm.employee.Employee_01_Add_Edit_Employee_User" />
+		</classes>
+	</test>
+</suite>

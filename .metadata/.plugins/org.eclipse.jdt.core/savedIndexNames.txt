@@ -1,0 +1,1 @@
+INDEX VERSION 1.131+D:\Workspace\TRAINING_TESTING\Online-Class-21\02.Course\.metadata\.plugins\org.eclipse.jdt.core
