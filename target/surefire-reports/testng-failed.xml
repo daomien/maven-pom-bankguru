@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [User - Nop Commerce]">
+  <listeners>
+    <listener class-name="commons.MethodListener"/>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+    <listener class-name="reportConfig.ReportNGListener"/>
+    <listener class-name="reportConfig.ExtentTestListener"/>
+  </listeners>
+  <test thread-count="5" verbose="0" name="Run on FIREFOX(failed)">
+    <parameter name="browser" value="Firefox"/>
+    <classes>
+      <class name="com.nopcommerce.login.Level_18_Sorting_Product_Run_Multiple_Environment">
+        <methods>
+          <include name="Sorting_01_Sort_By_Product_Name"/>
+          <include name="deleteAllFilesInReportNGScreenshot"/>
+          <include name="afterClass"/>
+          <include name="Sorting_02_Sort_By_Price"/>
+          <include name="initBrowser"/>
+        </methods>
+      </class> <!-- com.nopcommerce.login.Level_18_Sorting_Product_Run_Multiple_Environment -->
+    </classes>
+  </test> <!-- Run on FIREFOX(failed) -->
+</suite> <!-- Failed suite [User - Nop Commerce] -->

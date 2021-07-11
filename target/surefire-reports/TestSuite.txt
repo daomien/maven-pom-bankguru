@@ -1,4 +1,15 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 52.421 s - in TestSuite
+Tests run: 4, Failures: 1, Errors: 0, Skipped: 3, Time elapsed: 13.673 s <<< FAILURE! - in TestSuite
+initBrowser(com.nopcommerce.login.Level_18_Sorting_Product_Run_Multiple_Environment)  Time elapsed: 12.307 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+TypeError: browsingContextFn().currentWindowGlobal is null
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-0VU0TA3', ip: '192.168.1.14', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 87.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210318103112, moz:geckodriverVersion: 0.29.0, moz:headless: false, moz:processID: 1496, moz:profile: C:\Users\MienDT\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 96119407-15ec-462c-af4a-5e990de777d8
+*** Element info: {Using=xpath, value=//ul[@class='top-menu notmobile']//a[normalize-space(text())='Computers']}
+	at com.nopcommerce.login.Level_18_Sorting_Product_Run_Multiple_Environment.initBrowser(Level_18_Sorting_Product_Run_Multiple_Environment.java:34)
+

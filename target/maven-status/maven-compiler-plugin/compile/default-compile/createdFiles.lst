@@ -55,6 +55,7 @@ pageUIs\liveGuru\HomePageUI.class
 pageObjects\facebook\RegisterPageObject.class
 pageObjects\admin\nopCommerce\EditProductDetailsPageObject.class
 commons\VerificationFailures.class
+commons\Environement.class
 ultilities\PdfConfig.class
 commons\GlobalConstants.class
 pageUIs\orangeHRM\EmployeeDetailsPageUI.class

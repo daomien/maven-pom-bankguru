@@ -125,6 +125,12 @@
 			<artifactId>allure-testng</artifactId>
 			<version>2.13.5</version>
 		</dependency>
+
+		<dependency>
+			<groupId>org.aeonbits.owner</groupId>
+			<artifactId>owner-java8</artifactId>
+			<version>1.0.12</version>
+		</dependency>
 	</dependencies>
 
 	<!-- Compiler/ Run Test -->

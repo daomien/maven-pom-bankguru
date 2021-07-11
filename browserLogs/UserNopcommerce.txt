@@ -1,12 +1,1 @@
-[INFO ] [2021-06-27 18:01:44,135] Pre-condition: Initial browser driver
-[INFO ] [2021-06-27 18:02:13,555] Pre-condition: Hover on 'Computers' menu 
-[INFO ] [2021-06-27 18:02:15,444] Pre-condition: Hover on 'Notebooks' submenu 
-[INFO ] [2021-06-27 18:02:15,524] Sorting_01: Step 1 - Sort product name by ASC order
-[INFO ] [2021-06-27 18:02:17,345]  -------------------------- PASSED -------------------------- 
-[INFO ] [2021-06-27 18:02:20,354] Sorting_01: Step 2 - Sort product name by DESC order
-[INFO ] [2021-06-27 18:02:21,478]  -------------------------- PASSED -------------------------- 
-[INFO ] [2021-06-27 18:02:24,587] Sorting_02: Step 1 - Sort price product by ASC order
-[INFO ] [2021-06-27 18:02:25,762]  -------------------------- PASSED -------------------------- 
-[INFO ] [2021-06-27 18:02:28,776] Sorting_02: Step 1 - Sort price produce by DESC order
-[INFO ] [2021-06-27 18:02:29,878]  -------------------------- PASSED -------------------------- 
-[INFO ] [2021-06-27 18:02:32,895] Post-condition: Close browser
+[INFO ] [2021-07-11 10:15:35,340] Pre-condition: Initial browser driver

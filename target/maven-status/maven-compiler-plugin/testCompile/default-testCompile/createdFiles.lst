@@ -5,6 +5,7 @@ com\nopcommerce\login\Level_13_Register_Login_Log_ReportNG.class
 com\nopcommerce\login\Level_13_Register_Login_Log_ExtentReportV3_V4.class
 com\nopcommerce\login\Level_05_Register_Login_Page_Factory.class
 com\nopcommerce\login\Level_08_Register_Login_Page_Dynamic_Locator.class
+com\nopcommerce\login\Level_18_Sorting_Product_Run_Multiple_Environment.class
 com\nopcommerce\login\Level_07_Register_Login_Page_Switch_Page.class
 com\nopcommerce\admin\Level_10_Admin_Upload_File.class
 com\orangehrm\employee\Employee_01_Add_Edit_Employee_User.class

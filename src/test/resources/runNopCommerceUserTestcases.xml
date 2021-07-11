@@ -10,11 +10,11 @@
 		<listener class-name="reportConfig.ExtentTestListener" />
 		<!-- <listener class-name="reportConfig.AllureTestListener" /> -->
 	</listeners>
-	<parameter name="url" value="https://demo.nopcommerce.com/" />
+	<!-- <parameter name="url" value="https://demo.nopcommerce.com/" /> -->
 	<test name="Run on FIREFOX">
 		<parameter name="browser" value="Firefox" />
 		<classes>
-			<class name="com.nopcommerce.login.Level_17_Sorting_Product" />
+			<class name="com.nopcommerce.login.Level_18_Sorting_Product_Run_Multiple_Environment" />
 		</classes>
 	</test>
 </suite>

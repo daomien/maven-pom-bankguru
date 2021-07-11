@@ -44,6 +44,7 @@ D:\04.WORKSPACE\10.TRAINING-TESTING\01.ONLINE-CLASS-21\04.Maven-Framework\src\ma
 D:\04.WORKSPACE\10.TRAINING-TESTING\01.ONLINE-CLASS-21\04.Maven-Framework\src\main\java\pageObjects\user\nopCommerce\ShippingAndReturnPageObject.java
 D:\04.WORKSPACE\10.TRAINING-TESTING\01.ONLINE-CLASS-21\04.Maven-Framework\src\main\java\ultilities\FakerConfig.java
 D:\04.WORKSPACE\10.TRAINING-TESTING\01.ONLINE-CLASS-21\04.Maven-Framework\src\main\java\ultilities\PropertiesConfig.java
+D:\04.WORKSPACE\10.TRAINING-TESTING\01.ONLINE-CLASS-21\04.Maven-Framework\src\main\java\commons\Environement.java
 D:\04.WORKSPACE\10.TRAINING-TESTING\01.ONLINE-CLASS-21\04.Maven-Framework\src\main\java\reportConfig\ExtentManager.java
 D:\04.WORKSPACE\10.TRAINING-TESTING\01.ONLINE-CLASS-21\04.Maven-Framework\src\main\java\pageUIs\facebook\RegisterPageUI.java
 D:\04.WORKSPACE\10.TRAINING-TESTING\01.ONLINE-CLASS-21\04.Maven-Framework\src\main\java\pageUIs\admin\nopCommerce\SearchProductUI.java
